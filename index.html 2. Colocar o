@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoryON Technologies</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1b3045;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      color: #35d5f5;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 100px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #35d5f5;
+    }
+
+    .hero p {
+      color: #b6c5d5;
+      max-width: 650px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #35d5f5;
+      color: #07111f;
+      padding: 13px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 35px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #101f31;
+      border: 1px solid #203b53;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      color: #35d5f5;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b6c5d5;
+      font-size: 14px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .about p {
+      color: #b6c5d5;
+    }
+
+    .contact {
+      text-align: center;
+      background: #101f31;
+    }
+
+    .contact p {
+      color: #b6c5d5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #8296aa;
+      font-size: 13px;
+      border-top: 1px solid #1b3045;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">DoryON Technologies</div>
+
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>
+      Transformamos ideias em
+      <span>soluções digitais.</span>
+    </h1>
+
+    <p>
+      A DoryON Technologies é um projeto tecnológico
+      em desenvolvimento, com a ambição de criar
+      soluções digitais inovadoras para pessoas
+      e empresas.
+    </p>
+
+    <a href="#sobre" class="btn">Conheça o nosso projeto</a>
+  </section>
+
+  <section id="servicos">
+    <h2 class="section-title">O que queremos desenvolver</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Desenvolvimento Web</h3>
+        <p>
+          Criação de websites modernos, funcionais
+          e adaptados a diferentes dispositivos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Aplicações e Sistemas</h3>
+        <p>
+          Desenvolvimento de aplicações e ferramentas
+          digitais para resolver problemas do quotidiano.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Automação e Inteligência Artificial</h3>
+        <p>
+          Exploração de tecnologias inteligentes
+          para simplificar tarefas e melhorar processos.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="about">
+      <h2 class="section-title">Sobre a DoryON</h2>
+
+      <p>
+        A DoryON Technologies nasce de uma visão:
+        utilizar a tecnologia para transformar ideias
+        em soluções úteis. O nosso objetivo é aprender,
+        desenvolver e construir projetos que possam
+        contribuir para o futuro digital.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <h2 class="section-title">O futuro começa com uma ideia</h2>
+
+    <p>
+      Estamos a preparar os próximos passos
+      da DoryON Technologies.
+    </p>
+
+    <p style="margin-top: 15px;">
+      Luanda, Angola · Projeto em desenvolvimento
+    </p>
+  </section>
+
+  <footer>
+    © 2026 DoryON Technologies. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
